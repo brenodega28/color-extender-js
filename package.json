@@ -1,0 +1,16 @@
+{
+  "name": "color-extender",
+  "version": "1.0.0",
+  "description": "Generate a color gradient from one color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color",
+    "gradient",
+    "js"
+  ],
+  "author": "Breno Gomes",
+  "license": "MIT"
+}
