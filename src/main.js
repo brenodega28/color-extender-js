@@ -11,7 +11,7 @@ function generateDifferentColor(rgb, step) {
 function generateFixedColorGradient(hex, step = 10) {
   const rgb = hexToRgb(hex);
 
-  return (values = new Array(10)
+  return (values = new Array(5)
     .fill(0)
     .map((_, index) => generateDifferentColor(rgb, index * -1 * step))
     .map((c) => rgbToHex(c.r, c.g, c.b)));
