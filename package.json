@@ -1,7 +1,11 @@
 {
-  "name": "color-extender",
+  "name": "color-extender-js",
   "version": "1.0.0",
-  "description": "Generate a color gradient from one color",
+  "description": "Generates a color gradient from one hex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brenodega28/color-extender-js.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +16,6 @@
     "js"
   ],
   "author": "Breno Gomes",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/brenodega28/color-extender-js"
 }
