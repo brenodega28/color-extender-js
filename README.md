@@ -4,6 +4,18 @@ Color Extender is a lib for generating a gradient of lighter colors based on one
 
 OBS: I do not have knowledge of colors and their theory, i only needed this simple example.
 
+## Installing
+
+```
+yarn add color-extender-js
+```
+
+or
+
+```
+npm install color-extender-js
+```
+
 ## How to use
 
 ```js
