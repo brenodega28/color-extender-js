@@ -16,5 +16,13 @@ const crimson = "#dc143c";
 
 const fixedGradient = generateFixedColorGradient(crimson); // Always yields the same results
 
+/*
+[ '#dc143c', '#e61e46', '#f02850', '#fa325a', '#ff3c64' ]
+*/
+
 const randomGradient = generateRandomColorGradient(crimson); // Yields different values based on Math.Random(). The greater the index, lighter the color, but always in different steps
+
+/*
+[ '#dc143c', '#e31b43', '#ec244c', '#ff3e66', '#ff6890' ]
+*/
 ```
